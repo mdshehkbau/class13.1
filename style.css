@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	font-family: Segoe UI ;
+}
+.alignment {
+	width: 60%;
+	margin: auto;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+}
+/* Header-Area CSS Start */
+.header-area {
+	background: #23232e;
+	color: #ffffff;
+	text-align: center;
+	padding: 50px 0;
+}
+.logo img {
+	width: 70px;
+	margin-bottom: 40px;
+}
+.hero-part h2 {
+	margin-bottom: 0;
+}
+.hero-part P {
+	font-size: 12px;
+	margin-bottom: 80px;
+}
+.down-angle a {
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+.down-angle a i {
+	height: 12px;
+	width: 12px;
+	font-size: 12px;
+	padding: 8px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+}
+/* About-Area CSS Start */
+.about-area {
+	background-image: url('img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.about-in-con {
+	color: #464b4f;
+}
+.about-para p {
+	font-size: 14px;
+}
+.about-us h4 {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.about-us p {
+	font-size: 12px;
+}
+/* Portfolio-Area CSS Start */
+.portfolio-area {
+	background: #23232e;
+	overflow: hidden;
+}
+.portfolio-in-con h2, h3, a {
+	color: #ffffff;
+}
+.port-menu {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.port-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.port-menu li {
+	display: inline;
+	margin: 0 5px;
+}
+.port-menu li a {
+	text-transform: capitalize;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 2px;
+	font-size: 11px;
+}
+.port-menu li a:hover {
+	border-bottom: 2px solid #7B78C9;
+}
+.port-menu ul .active a {
+	border-bottom: 2px solid #7B78C9;
+}
+.works-columns h3 {
+	font-size: 14px;
+	font-weight: normal;
+	margin:  0;
+}
+.works-columns {
+	text-align: center;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+.works-columns a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #818baa;
+	text-align: center;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.col-3 {
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+.col-3 img {
+	width: 100%;
+	margin: auto;
+}
+.btn {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.btn a {
+	border: 1px solid transparent;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 12px;
+	padding: 7px 15px;
+	border-radius: 4px;
+	background: #7b77c9;
+}
+/* Photography-Area CSS Start */
+.photography-area {
+	overflow: hidden;
+	color: #23232e;
+}
+.photography-in-con h2 {
+	
+}
+.photography-in-con .box-image {
+	padding-bottom: 50px;
+}
+/* Contact-Area CSS Start */
+.contact-area {
+	background: #23232e;
+}
+/* FOooter-Area CSS Start */
